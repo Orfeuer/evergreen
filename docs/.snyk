@@ -1,0 +1,44 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-450202:
+    - gatsby > @babel/traverse > @babel/types > lodash:
+        patched: '2019-07-04T02:20:52.189Z'
+    - gatsby-plugin-favicon > lodash:
+        patched: '2019-07-04T02:20:52.189Z'
+    - gatsby > lodash:
+        patched: '2019-07-04T02:20:52.189Z'
+    - gatsby > @babel/traverse > lodash:
+        patched: '2019-07-04T02:20:52.189Z'
+    - gatsby > gatsby-plugin-page-creator > lodash:
+        patched: '2019-07-04T02:20:52.189Z'
+    - gatsby > gatsby-cli > lodash:
+        patched: '2019-07-04T02:20:52.189Z'
+    - gatsby > eslint-plugin-flowtype > lodash:
+        patched: '2019-07-04T02:20:52.189Z'
+    - gatsby-transformer-react-docgen > @babel/types > lodash:
+        patched: '2019-07-04T02:20:52.189Z'
+    - gatsby-plugin-favicon > favicons-webpack-plugin > lodash:
+        patched: '2019-07-04T02:20:52.189Z'
+    - gatsby-mdx > lodash:
+        patched: '2019-07-04T02:20:52.189Z'
+    - gatsby > @babel/preset-env > @babel/plugin-proposal-unicode-property-regex > @babel/helper-regex > lodash:
+        patched: '2019-07-04T02:20:52.189Z'
+    - gatsby-plugin-favicon > favicons-webpack-plugin > favicons > cheerio > lodash:
+        patched: '2019-07-04T02:20:52.189Z'
+    - gatsby > @babel/preset-env > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/traverse > lodash:
+        patched: '2019-07-04T02:20:52.189Z'
+    - '@segment/consent-manager > emotion > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2019-07-04T02:20:52.189Z'
+    - '@segment/consent-manager > react-emotion > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2019-07-04T02:20:52.189Z'
+    - gatsby > @babel/preset-env > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/traverse > lodash:
+        patched: '2019-07-04T02:20:52.189Z'
+    - gatsby > @babel/preset-env > @babel/plugin-transform-async-to-generator > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/traverse > @babel/types > lodash:
+        patched: '2019-07-04T02:20:52.189Z'
+    - gatsby > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2019-07-04T02:20:52.189Z'
+    - gatsby > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2019-07-04T02:20:52.189Z'
